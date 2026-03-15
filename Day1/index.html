@@ -6,11 +6,11 @@
     <title>Advance Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: rgb(100, 139, 0);">
+<body style="background-color: rgb(160, 144, 182);">
     <h2 style="text-align: center;">Registration Form</h2>
     <form action="">
 
-        <fieldset style="background-color: rgb(237, 187, 100); border: 3px brown solid;">
+        <fieldset class="fs">
             <legend style="font-size: 30px;">Personal Information</legend>
                 <label for="firstName">First Name:</label><br>
                 <input class="design" type="text" name="firstName" id="firstName" placeholder="Enter first name" required><br><br>
@@ -37,12 +37,85 @@
                 <input class="design" type="number" name="age" id="age" min="1" max="100" required><br><br>
 
                 <label for="submit">Submit</label><br>
-                <input class="design" type="submit" name="submit" id="submit" required><br><br>
+                <input class="design" style="background-color: rgba(241, 166, 5, 0.86);" type="submit" name="submit" id="submit" required><br><br>
 
 
 
         </fieldset>
+        <fieldset class="fs">
+            <legend style="font-size: 30px">Gender</legend>
+            
+                <input type="radio" class="design" name="gender" id="Male" value="Male">
+                <label for="Male">Male</label><br>
+                <input class="design" type="radio" name="gender" id="" value="Female">
+                <label for="Female">Female</label><br>
+                <input class="design" type="radio" name="gender" id="" value="Other">
+                <label for="Other">Other</label>
 
+        </fieldset>
+        <fieldset class="fs">
+            <legend style="font-size: 30px">Address Information</legend>
+            <label for="bld">Country:</label><br>
+            <select class="design" name="bld" id="bld">
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="UEA">UEA</option>
+                <option value="Iran">Iran</option>
+
+            </select><br><br>
+            <label for="City">City:</label><br>
+            <input class="design" type="text" name="City" id="City"><br><br>
+            <label for="Pc">Postal Code:</label><br>
+            <input class="design" type="text" name="Pc" id="Pc"><br><br>
+            <label for="address">Full Address</label><br>
+            <textarea class="design" name="address" id="address" rows="4" cols="40"></textarea>
+        </fieldset>
+
+        <fieldset class="fs">
+
+            <legend style="font-size: 30px">Skills</legend>
+            
+            <input type="checkbox" name="cb" id="cb1">
+            <label for="cb1">HTML</label><br>
+            
+            <input type="checkbox" name="cb" id="cb2">
+            <label for="cb1">Python</label><br>
+            
+            <input type="checkbox" name="cb" id="cb3">
+            <label for="cb1">JavaScript</label><br>
+            
+            <input type="checkbox" name="cb" id="cb4">
+            <label for="cb1"></label>C#<br>
+
+        </fieldset>
+
+        <fieldset class="fs">
+            <legend style="font-size: 30px">Preferences</legend>
+            <label for="">Favorite color:</label><br>
+            <input class="design" type="color"><br><br>
+            <label for="">Available Time:</label><br>
+            <input class="design" type="time"><br><br>
+            <label for="">Meeting Date:</label><br>
+            <input class="design" type="datetime-local"><br><br>
+            <label for="experience">Experience level</label><br>
+            <input class="design" type="range" id="experience" min="1" max="10"><br><br>
+            
+        </fieldset>
+
+        <fieldset class="fs">
+            <legend style="font-size: 30px">Documents</legend>
+
+            <label for="">Profile Picture</label><br>
+            <input type="file"><br><br>
+            
+            <label for="">Resume</label><br>
+            <input type="file"><br><br>
+            
+        </fieldset>
+        <br><input type="checkbox" name="" id="">I agree to the term and conditions <br><br>
+        <input class="design" style="background-color: rgba(241, 166, 5, 0.86);" type="submit" name="" id="" value="Submit Form">
+        <input class="design" style="background-color: rgba(241, 166, 5, 0.86);" type="reset" name="" id="" value="Reset Form">
+        
     </form>
 
 </body>
