@@ -1,284 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Professional Resume</title>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family: 'Segoe UI', sans-serif;
-}
-
-body{
-background:#f4f4f4;
-padding:20px;
-}
-
-.container{
-max-width:1100px;
-margin:auto;
-background:white;
-display:grid;
-grid-template-columns:320px 1fr;
-box-shadow:0 0 20px rgba(0,0,0,0.1);
-}
-
-.sidebar{
-background:#1f2a44;
-color:white;
-padding:30px;
-}
-
-.profile{
-text-align:center;
-margin-bottom:30px;
-}
-
-.profile img{
-width:120px;
-height:120px;
-border-radius:50%;
-border:4px solid white;
-object-fit:cover;
-}
-
-.profile h2{
-margin-top:15px;
-}
-
-.sidebar h3{
-margin-top:30px;
-margin-bottom:10px;
-border-bottom:2px solid rgba(255,255,255,0.3);
-padding-bottom:5px;
-}
-
-.contact p{
-margin:8px 0;
-font-size:14px;
-}
-
-.skills .skill{
-margin:10px 0;
-}
-
-.skills .bar{
-background:#444;
-height:8px;
-border-radius:4px;
-overflow:hidden;
-}
-
-.skills .bar span{
-display:block;
-height:100%;
-background:#4db5ff;
-}
-
-.main{
-padding:40px;
-}
-
-.section{
-margin-bottom:35px;
-}
-
-.section h2{
-margin-bottom:15px;
-color:#1f2a44;
-border-left:4px solid #4db5ff;
-padding-left:10px;
-}
-
-.timeline{
-position:relative;
-}
-
-.timeline-item{
-margin-bottom:20px;
-padding-left:20px;
-border-left:2px solid #ddd;
-}
-
-.timeline-item h4{
-margin-bottom:5px;
-}
-
-.timeline-item span{
-font-size:13px;
-color:gray;
-}
-
-.projects ul{
-padding-left:20px;
-}
-
-.projects li{
-margin-bottom:8px;
-}
-
-@media(max-width:900px){
-
-.container{
-grid-template-columns:1fr;
-}
-
-.sidebar{
-text-align:center;
-}
-
-}
-
-</style>
-</head>
-
-<body>
-
-<div class="container">
-
-<div class="sidebar">
-
-<div class="profile">
-<img src="https://i.pravatar.cc/150" alt="profile">
-<h2>Your Name</h2>
-<p>Full Stack Developer</p>
-</div>
-
-<div class="contact">
-<h3>Contact</h3>
-<p><i class="fa fa-phone"></i> +92 300 0000000</p>
-<p><i class="fa fa-envelope"></i> email@example.com</p>
-<p><i class="fa fa-location-dot"></i> Faisalabad, Pakistan</p>
-<p><i class="fa fa-globe"></i> yourwebsite.com</p>
-</div>
-
-<div class="skills">
-<h3>Skills</h3>
-
-<div class="skill">
-<p>HTML</p>
-<div class="bar"><span style="width:95%"></span></div>
-</div>
-
-<div class="skill">
-<p>CSS</p>
-<div class="bar"><span style="width:90%"></span></div>
-</div>
-
-<div class="skill">
-<p>JavaScript</p>
-<div class="bar"><span style="width:85%"></span></div>
-</div>
-
-<div class="skill">
-<p>React</p>
-<div class="bar"><span style="width:80%"></span></div>
-</div>
-
-<div class="skill">
-<p>Node.js</p>
-<div class="bar"><span style="width:75%"></span></div>
-</div>
-
-</div>
-
-<div class="languages">
-<h3>Languages</h3>
-<p>English</p>
-<p>Urdu</p>
-</div>
-
-</div>
-
-
-<div class="main">
-
-<div class="section">
-<h2>Profile</h2>
-<p>
-Experienced Full Stack Developer with strong knowledge of modern web technologies.
-Skilled in building scalable web applications, responsive UI designs, and backend
-APIs. Passionate about problem solving and creating efficient digital solutions.
-</p>
-</div>
-
-
-<div class="section">
-<h2>Work Experience</h2>
-
-<div class="timeline">
-
-<div class="timeline-item">
-<h4>Senior Web Developer</h4>
-<span>ABC Tech Company | 2022 - Present</span>
-<p>
-Developed scalable web applications using React and Node.js.
-Improved system performance and optimized backend APIs.
-</p>
-</div>
-
-<div class="timeline-item">
-<h4>Frontend Developer</h4>
-<span>XYZ Solutions | 2020 - 2022</span>
-<p>
-Built responsive user interfaces and interactive dashboards using
-modern JavaScript frameworks.
-</p>
-</div>
-
-<div class="timeline-item">
-<h4>Junior Developer</h4>
-<span>Startup Hub | 2018 - 2020</span>
-<p>
-Worked on website development and UI implementation using HTML,
-CSS, and JavaScript.
-</p>
-</div>
-
-</div>
-</div>
-
-
-<div class="section">
-<h2>Education</h2>
-
-<div class="timeline-item">
-<h4>BS Computer Science</h4>
-<span>University Name | 2016 - 2020</span>
-</div>
-
-</div>
-
-
-<div class="section projects">
-<h2>Projects</h2>
-
-<ul>
-<li>Full Stack E-commerce Website</li>
-<li>Real-time Chat Application</li>
-<li>Portfolio Website with Animations</li>
-<li>Task Management System</li>
-</ul>
-
-</div>
-
-
-<div class="section">
-<h2>Achievements</h2>
-<p>Winner of National Coding Competition 2023</p>
-<p>Certified AWS Cloud Practitioner</p>
-</div>
-
-</div>
-
-</div>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header> <!--Name and contact info-->
+      <h1>Shoaib Ali</h1>
+      <p style="display: inline">Contact:</p>
+      <a href="shoai6.ai@gmail.com">shoai6.ai@gmail.com</a><br />
+      <p style="display: inline">LinkenIn:</p>
+      <a href="https://www.linkedin.com/in/shoaib-ali-56598636a/"
+        >linkedin.com/in/shoaib-ali</a
+      ><br />
+      <p style="display: inline">github:</p>
+      <a href="https://github.com/shoaibF16">github.com/shoaibF16</a>
+    </header>
+    <section> <!--Profile section-->
+        <table>
+            <tr>
+                <td><img src="Snapchat-1559116230.jpg" alt="" width="100px"></td>
+                <td>I am a passionate software engineer with expertise in problem-solvin
+                    and algorithmic thinking. I love to explore various technologies and
+                    frameworks to develop efficient and scalable solutions. With a strong
+                    foundation in data structures and algorithms, I strive to create robust
+                    and optimized code. I am constantly expanding my skills and staying
+                    up-to-date with the latest advancements in the field of software
+                    development.</td>
+            </tr>
+        </table>
+    </section>
+    <section> <!--Education-->
+        <h2>Education</h2>
+        <ul>
+            <li>Bechelors in Science from University of Sargodha</li>
+            <li>Masters in Computer Science From University of lakki marwat</li>
+        </ul>
+    </section>
+    <section> <!--Work Experience-->
+        <h2>Work Experience</h2>
+        <h3>software engineer,Microsoft</h3>
+        <p>Nov-2021 To sep-2023</p>
+        <ul>
+            <li>Developed and maintained Web Applications using HTML, CSS and Javascript</li>
+            <li>Collaborated with cross-functional teams to design and implement software solutions</li>
+            <li>Optimized code performance and improved application efficiency</li>
+        </ul>
+        <h3>Software Development Engineer,Amazon</h3>
+        <p>Nov-2023 To sep-2025</p>
+        <ul>
+            <li>Assisted in developing and testing software modules</li>
+            <li>Worked on bug fixing and performance enhancement tasks</li>
+        </ul>
+
+    </section>
+    <section><!--Skills-->
+        <h2>Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>SQL</li>
+        </ul>
+
+    </section>
+    <section> <!--Achievements-->
+        <h2>Achievements</h2>
+        <ul>
+            <li>Service Selection Board(Recommendation letter for Officer entry in Indian Army)</li>
+            <li>Published an article on data structures in a renowned tech magazine</li>
+        </ul>
+
+    </section>
+    <section> <!--Projects-->
+        <h2>Projects</h2>
+        <h3>Library Management System</h3>
+        <p>Library Management Application - developed a desktop application by using java swing and MYSQL server.</p>
+        <ul>
+            <li>Hosted Link: <a href="abc.com">example.com/ecommerce</a></li>
+            <li>GitHub Link: <a href="https://github.com/shoaibF16">github.com/shoaibF16</a></li>
+        </ul>
+        <h3>Friendly Chat AppFriendly</h3>
+        <p>Friendly Chat - An Android application making use of firebase, to help people connect and chat by sending messages and images, also having login options.</p>
+        <ul>
+            <li>Hosted Link: <a href="abc.com">example.com/blog</a></li>
+            <li>GitHub Link: <a href="https://github.com/shoaibF16">github.com/shoaibF16</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p style="text-align: center" >
+            © 2026 GitHub, Inc.
+        </p>
+        
+    </footer>
+  </body>
 </html>
